@@ -1,0 +1,74 @@
+/*------------
+ Google Fonts 
+----------------- */
+    @import url('https://fonts.googleapis.com/css2?family=Inter:wght@600;700&family=Lobster&family=Montserrat:wght@300;400;500;700&family=Poppins:wght@300;400;600;700&family=Roboto:wght@300;400;500;900&display=swap');
+    /* Font Family */
+    /* font-family: 'Poppins', sans-serif; */
+/*------------
+ Google Fonts 
+----------------- */
+/*-------------
+ Common Style
+ ---------------*/
+body {
+    margin: 0 ;
+    font-family: 'Poppins', sans-serif;
+}
+
+.container {
+    width: 90%;
+    margin: auto;
+}
+
+/*-------------
+ Common Style
+ ---------------*/
+
+/*-------------
+ Header Section 
+ ---------------*/
+.header-area {
+    display: flex;
+    background-color: #161616;
+}
+.how-watch {
+    flex-basis: 45%;
+    padding: 111px 20px 0px 60px
+}
+.how-watch h1 {
+    font-size: 54px;
+    font-weight: 700;
+    color: #FFFFFF;
+    margin: 0;
+}
+.how-watch p {
+    font-size: 16px;
+    font-weight: 400;
+    color: #FFFFFF;
+    padding-bottom: 25px;
+  
+
+}
+.btn-sytle{
+    font-size: 20px;
+    font-weight: 300;
+    color: #FFFFFF;
+    padding: 16px 25px;
+    background: #df1010;
+    text-decoration: none;
+}
+.right-angle {
+    margin-left: 3px;
+}
+.header-img {
+    flex-basis: 48%;
+    margin:30px 3px 0px 12px;
+    overflow: hidden;
+}
+
+.header-img img {
+    width: 100%;
+}
+/*-------------
+ Header Section End
+ ---------------*/
