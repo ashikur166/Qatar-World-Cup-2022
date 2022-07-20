@@ -96,6 +96,7 @@ body {
 .menu-section ul {
     margin: 0;
     padding: 0;
+    padding-top: 25px;
 }
 .menu-section ul li {
   list-style: none;
@@ -167,4 +168,62 @@ body {
 /*-------------
  Main Section End
  ---------------*/
+ /*-------------
+ Footer Section
+ ---------------*/
+ #footer-section {
+    background-color: #161616;
+    margin-top: 100px;
+    padding: 140px 0;
+ }
 
+ .footer-head h1 {
+    font-size: 60px;
+    font-weight: 700;
+    text-align: center;
+    color: #FFFFFF;
+   
+ }
+ .footer-bottom ul {
+    display: flex;
+    justify-content: center;
+ }
+ .footer-bottom ul li {
+    list-style: none;
+    margin-left: 10px;
+
+ }
+ .footer-bottom ul li a {
+    font-size: 16px;
+    font-weight: 500;
+    text-decoration: none;
+    color: #B9B9B9;
+
+} 
+.footer-bottom .social-icon {
+    text-align: center;
+   
+}
+.footer-bottom .social-icon a{
+     text-decoration: none;
+    
+}
+
+.footer-bottom .social-icon i {
+    font-size: 26px;
+    margin-left: 10px;
+    color: #B9B9B9;
+    text-align: center;
+    border-radius: 50%;
+    
+}
+hr{
+    width: 90%;
+    margin: auto;
+    border: 1px solid #B9B9B9;
+   
+}
+
+ /*-------------
+ Footer Section End
+ ---------------*/
