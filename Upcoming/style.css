@@ -32,6 +32,7 @@ body {
     display: flex;
     background-color: #161616;
     border-radius: 30px;
+    margin-top: 50px;
 }
 .how-watch {
     flex-basis: 45%;
@@ -113,7 +114,8 @@ body {
     display: block;
     width: 80%;
     margin: auto;
-    border-radius: 10px;  
+    border-radius: 10px;
+     
 }
 .menu-section ul li:last-child a {
     background-color: #df1010;
@@ -132,39 +134,34 @@ body {
     border: 1px solid #cbcbcb;
     background-color: #FFFFFF;
     border-radius: 8px;
-  
+ 
 }
-.player-transfer img {
-    width: 100%;
-    border-top-left-radius: 8px;
-    border-top-right-radius: 8px;
+.transfer-image {
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
 }
-
-.transfer-text .text-1 {
-    font-size: 16px;
-    font-weight: 500;
-    color: #161616;
-    margin-left: 15px;
-    padding: 3px 10px;
-    border: 1px solid #161616;
-    display: inline-block;
-    border-radius: 5px;
+.middle-text {
+    padding: 0 10px;
 }
-.transfer-text .text-2 {
-    font-size: 16px;
+.transfer-image img {
+   width: 100%;
+}
+.transfer-text {
+    text-align: center;
+}
+.transfer-text h2 {
+    font-size: 20px;
     font-weight: 600;
     color: #161616;
-    padding-left: 15px;
 }
-.transfer-icon  {
-    display: flex;
-    flex-direction: row;
+.transfer-text p {
     font-size: 16px;
-    color: #161616B2;
-    justify-content: space-between;
-    width: 50%;
-    margin-left : 15px
+    font-weight: 300;
+    color: #4D4D4D;
 }
+
+
 /*-------------
  Main Section End
  ---------------*/
@@ -227,3 +224,46 @@ hr{
  /*-------------
  Footer Section End
  ---------------*/
+
+
+ /*--------------------
+ RWD - Different Device
+ ------------------*/
+
+  /*-------------
+  Moblie Device
+ ---------------*/
+
+ @media only screen and (max-width:688px) {
+    /* header */
+    .header-area {
+        flex-direction: column;
+    }
+    .how-watch h1 {
+        font-size: 24px;
+    }
+    .how-watch .btn-sytle {
+        font-size: 18px;
+        padding: 8px 12px;
+    }
+
+    /* main */
+    .transfer-section {
+        flex-direction: column;
+    }
+    .transfer-menu-section {
+        width: 100%;
+    }
+    .transfer-live {
+        grid-template-columns: repeat(1, 1fr);
+        width: 100%;
+    }
+
+    /* footer */
+    .footer-bottom ul {
+        flex-direction: column;
+        align-items: center;
+        padding: 0;
+   }
+   
+ }
