@@ -108,7 +108,7 @@ body {
     font-weight: 500;
     color: #161616;
     text-decoration: none;
-    padding: 15px 30px;
+    padding: 15px 25px;
     background-color: #FFFFFF;
     text-align: center;
     display: block;
@@ -347,3 +347,56 @@ hr{
     margin: 30px 20px 8px 20px ;
    }
  }
+
+  /*-------------
+  Destop Device
+ ---------------*/
+ @media only screen and (min-width:993px) and (max-width:1312px) {
+    /* header */
+    .how-watch {
+        width:50%;
+        padding-top: 80px;
+    }
+    .how-watch h1 {
+        font-size: 32px;
+    }
+    .how-watch p {
+        padding-right: 30px;
+    }
+    /* menu */
+    .transfer-section {
+        flex-direction: column;
+       
+     }
+     .menu-section {
+        padding: 0;
+        background-color: transparent;
+     }
+     .menu-section ul {
+         display: grid;
+         grid-template-columns: repeat(3, 1fr);
+         justify-content: space-between;
+         padding: 0;
+         margin: 0;
+    
+     }
+     .menu-section ul li a {
+         font-size: 16px;
+         padding: 12px 20px;
+       }
+    
+     .transfer-menu-section {
+         width: 100%;
+         margin: auto; 
+     }
+     .transfer-live {
+         grid-template-columns: repeat(2, 1fr);
+         width: 100%;
+     }
+
+ 
+  
+ }
+/*-------------
+  Destop Device
+ ---------------*/
