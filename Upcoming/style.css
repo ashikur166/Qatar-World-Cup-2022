@@ -44,6 +44,26 @@ body {
     color: #FFFFFF;
     margin: 0;
 }
+.how-watch .animation{
+    position: relative;
+    display: inline-block;
+    font-size: 54px;
+    color: #fff;
+    animation: flip 3s infinite;
+    animation-delay: .5s;
+    
+}
+
+@keyframes flip {
+   0%  {
+      transform: rotateY(180deg);
+      
+    }
+   50%  {
+        transform: rotateX(180deg);
+        
+      }
+}
 .how-watch p {
     font-size: 16px;
     font-weight: 400;
@@ -245,6 +265,13 @@ hr{
     .how-watch h1 {
         font-size: 24px;
     }
+    .how-watch p {
+        font-size: 14px;
+        
+     }
+    .how-watch .animation{
+        font-size: 24px;
+    }
     .how-watch .btn-sytle {
         font-size: 18px;
         padding: 8px 12px;
@@ -281,6 +308,9 @@ hr{
         flex-direction: column;
     }
     .how-watch h1 {
+        font-size: 30px;
+    }
+    .how-watch .animation {
         font-size: 30px;
     }
     .how-watch p {
@@ -358,6 +388,9 @@ hr{
         padding-top: 80px;
     }
     .how-watch h1 {
+        font-size: 32px;
+    }
+    .how-watch .animation {
         font-size: 32px;
     }
     .how-watch p {
